@@ -1,0 +1,27 @@
+{
+  "tags": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "description": "Technology"
+    },
+
+    {
+      "id": 2,
+      "name": "Fashion",
+      "description": "Fashion"
+    },
+
+    {
+      "id": 3,
+      "name": "Lifestyle",
+      "description": "Lifestyle"
+    },
+
+    {
+      "id": 4,
+      "name": "Necessary",
+      "description": "Necessary"
+    }
+  ]
+}

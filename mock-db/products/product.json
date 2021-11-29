@@ -1,0 +1,11 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Technology",
+      "description": "Technology",
+      "category_id": "1",
+      "tag_id": [1, 2, 3]
+    }
+  ]
+}

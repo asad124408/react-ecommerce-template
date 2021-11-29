@@ -1,0 +1,45 @@
+{
+  "product_categorys": [
+    {
+      "id": 1,
+      "name": "Bags",
+      "description": "Bags"
+    },
+
+    {
+      "id": 2,
+      "name": "Shoes",
+      "description": "Shoes"
+    },
+
+    {
+      "id": 3,
+      "name": "Sunglasss",
+      "description": "Sunglasss"
+    },
+
+    {
+      "id": 4,
+      "name": "Men",
+      "description": "Men"
+    },
+
+    {
+      "id": 5,
+      "name": "Women",
+      "description": "Women"
+    },
+
+    {
+      "id": 6,
+      "name": "Laptop/Desktop",
+      "description": "Laptop/Desktop"
+    },
+
+    {
+      "id": 7,
+      "name": "Smartphone",
+      "description": "Smartphone"
+    }
+  ]
+}

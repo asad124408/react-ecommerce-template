@@ -1,0 +1,49 @@
+:root {
+  --header-height: 3rem;
+  --hue: 157;
+  /* color pallete */
+  --first-color: #1b4d89;
+  --container-color-alt: #fef9f8;
+  --container-color: #fff;
+  --text-color: #0d0d0d;
+  --text-color-alt: #fff;
+  --btn-color: #fcb800;
+  --bg-color: #6db784;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+}
+
+.container {
+  margin: 0 auto;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-half {
+  flex: 0.5;
+}
+.slick-slider .slick-prev {
+  left: 0px !important;
+  z-index: 10 !important;
+  padding: 10px 0 0 10px;
+  margin: 2px;
+}
+.slick-slider .slick-next {
+  right: 10px !important;
+  z-index: 10 !important;
+  margin: 2px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
