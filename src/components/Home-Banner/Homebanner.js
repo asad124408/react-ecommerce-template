@@ -56,7 +56,7 @@ function Homebanner() {
     prevArrow: <SamplePrevArrow />,
   };
   return (
-    <div className={styles.homebanner}>
+    <div className="homebanner">
       <div className="container">
         <Slider {...settings}>
           {data &&

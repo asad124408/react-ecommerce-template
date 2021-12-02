@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <div className={`sticky py-4 ${styles.header}`}>
+    <div className={`py-4 ${styles.header}`}>
       <div className="container">
         <div className="w-full flex items-center justify-between">
           <div className={`flex-1 ${styles.brandArea}`}>

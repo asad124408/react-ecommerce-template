@@ -32,18 +32,54 @@ html {
 .flex-half {
   flex: 0.5;
 }
-.slick-slider .slick-prev {
+.homebanner {
+  margin-top: 80px;
+}
+.homebanner .slick-slider .slick-prev {
   left: 0px !important;
   z-index: 10 !important;
   padding: 10px 0 0 10px;
   margin: 2px;
 }
-.slick-slider .slick-next {
+.homebanner .slick-slider .slick-next {
   right: 10px !important;
   z-index: 10 !important;
   margin: 2px;
 }
+.featuredProducts .slick-slide {
+  padding-left: 10px;
+}
 
+.featuredProducts .slick-slider .slick-prev {
+  left: -35px !important;
+  z-index: 10 !important;
+  margin: 2px;
+  background: var(--btn-color);
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+}
+.featuredProducts .slick-slider .slick-next {
+  right: -35px !important;
+  z-index: 10 !important;
+  margin: 2px;
+  background: var(--btn-color);
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+}
+.featuredProducts .slick-prev:before,
+.featuredProducts .slick-next:before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 1 !important;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
