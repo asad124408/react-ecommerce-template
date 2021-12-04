@@ -3,6 +3,7 @@ import styles from "./RandomCategory.module.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import CustomFilter from "../Custom-Filter/CustomFilter";
 
 const categories = [
   {
@@ -394,12 +395,15 @@ function RandomCategory() {
     prevArrow: <SamplePrevArrow />,
   };
   return (
-    <div className="randomCategoryProducts">
+    <div className={styles.randomCategoryProducts}>
       <div className="container">
         <div className={styles.randomCategoryArea}>
-          <label className={styles.randomCategoryCaption}>
-            {randomCategoryName}
-          </label>
+          <div className="caption-filter">
+            <label className={styles.randomCategoryCaption}>
+              {randomCategoryName}
+            </label>
+            <CustomFilter />
+          </div>
           <div className={styles.randomCategoryWrapper}>
             {randomProducts &&
               randomProducts.length > 0 &&

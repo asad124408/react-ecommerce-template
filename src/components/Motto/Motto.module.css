@@ -1,0 +1,10 @@
+.motto {
+  border: 1px solid var(--border-color);
+  padding: 20px 25px;
+}
+.motto i {
+  font-size: 50px;
+  font-weight: normal;
+  margin-right: 10px;
+  color: var(--btn-color);
+}

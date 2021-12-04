@@ -3,6 +3,7 @@ import TopCategory from "../components/Category/TopCategory";
 import FeaturedProducts from "../components/Featured-Products/FeaturedProducts";
 import Header from "../components/Header/Header";
 import Homebanner from "../components/Home-Banner/Homebanner";
+import Motto from "../components/Motto/Motto";
 import RandomCategory from "../components/Random-Category-Summary/RandomCategory";
 
 function Homepage() {
@@ -19,6 +20,8 @@ function Homepage() {
       {/* Random Category 2/3 */}
       <RandomCategory />
       <RandomCategory />
+      {/* Motto Area */}
+      <Motto />
       {/* Promoted Product Area */}
       {/* Best Category Products sold Last Month */}
       {/* New Arrivals Products */}

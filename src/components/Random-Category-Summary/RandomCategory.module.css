@@ -3,10 +3,10 @@
   padding: 20px 0;
 }
 .randomCategoryCaption {
+  flex: 1;
   font-weight: 600;
   font-size: 18px;
-  background: #bfbfbf;
-  padding: 10px 5px;
+  padding: 5px 10px;
   margin: 10px 0;
   width: 100%;
   display: flex;
@@ -19,12 +19,13 @@
 }
 
 .randomCategoryItem {
-  height: 210px;
+  height: 320px;
   flex: 1;
   border: 1px solid #bfbfbf;
   margin: 10px !important;
   cursor: pointer;
-  max-width: 200px;
+  width: 275px;
+  max-width: 275px;
 }
 .randomCategoryItem:hover {
   border: 1px solid var(--btn-color);
@@ -33,8 +34,8 @@
 }
 .randomCategoryItem img {
   width: 100%;
-  height: 170px;
-  padding: 10px;
+  height: 70%;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;

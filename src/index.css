@@ -9,6 +9,8 @@
   --text-color-alt: #fff;
   --btn-color: #fcb800;
   --bg-color: #6db784;
+  --border-color: #bfbfbf;
+  --gray-bg: #f8f8f8;
 }
 * {
   margin: 0;
@@ -80,6 +82,50 @@ html {
   color: white;
   -webkit-font-smoothing: antialiased;
 }
+.caption-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #bfbfbf;
+}
+/* Custom Filter */
+.custom-filter {
+  flex: 1;
+}
+.custom-filter label {
+  margin: 0 10px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+.custom-filter label:hover {
+  text-decoration: underline;
+}
+/* End of Custom Filter */
+
+/* Back to Top */
+.back-to-top {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  left: 97%;
+  bottom: 20px;
+  font-size: 2rem;
+  z-index: 1;
+  cursor: pointer;
+  color: white;
+  background: var(--btn-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End of Back to Top */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
